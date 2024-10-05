@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Games</title>
+</head>
+<body>
+    <header class="game-header">
+        <h1>Games</h1>
+    </header>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./games.html">Games</a>
+        <a href="./contact.html">Contact Us</a>
+    </nav>
+    <main class="games">
+        <h2>Rock, Paper, Scissors</h2>
+        <hr>
+        <form onsubmit="return rps();">
+            <select name="choice" id="choice">
+                <option value="Rock">Rock</option>
+                <option value="Paper">Paper</option>
+                <option value="Scissors">Scissors</option>
+            </select>
+            <input type="submit">
+        </form>
+        <hr>
+        <div id="rpsBlock">
+            <div class="results">
+                <h3>You Chose: </h3>
+                <h3 id="user"></h3>
+            </div>
+            <div class="results">
+                <h3>Computer Chose: </h3>
+                <h3 id="computer"></h3>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>By Anthony Lopez</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

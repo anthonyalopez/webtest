@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(255, 240, 243);
+}
+header{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px
+}
+.contact-header{
+    font-family:fantasy;
+}
+.game-header{
+    font-family: cursive;
+}
+footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+nav{
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    margin:10px;
+}
+a{
+    text-decoration: none;
+    padding:10px;
+    color:blue;
+}
+a:hover{
+    color:aqua;
+}
+.home{
+    background-color: rgb(123, 237, 255);
+    overflow: auto;
+}
+.main-content{
+    width: 60%;
+    padding: 10px;
+    float: left;
+    border: solid;
+}
+aside{
+    width: 20%;
+    padding:10px;
+    float: right;
+    background-color: green;
+    text-align: center;
+    border: solid;
+}
+button:hover{
+    background-color: red;
+}
+article{
+    background-color: rgb(240, 239, 239);
+    margin: 5px;
+    min-height: 100px;
+    padding:5px;
+    overflow: auto;
+}
+#linkedin{
+    width:50px;
+    border-radius: 10%;
+    float:right;
+}
+#rpsBlock{
+    display: flex;
+    justify-content: space-between;
+}
+.results{
+    padding:20px;
+    width:40%;
+    background-color: white;
+    border: solid;
+    text-align: center;
+    display: inline-block;
+}
+
+#success{
+    background-color: rgb(215, 252, 215);
+}

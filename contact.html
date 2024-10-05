@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="contact-header">
+        <h1>Contact Me</h1>
+    </header>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./games.html">Games</a>
+        <a href="./contact.html">Contact Us</a>
+    </nav>
+    <main>
+        <h1>Have Questions? Feel free to reach out!</h1>
+        <form action="./success.html" onsubmit="return checkTextBox()">
+            <label for="name">Name: </label>
+            <input type="text" name="name" required>
+            <br>
+            <label for="date">Date: </label>
+            <input type="date" name="date" required>
+            <br>
+            <label for="concern">Concern: </label>
+            <textarea name="concern" id="concern" required></textarea>
+            <br>
+            <input type="submit">
+        </form>
+        <footer>
+            <p>By Anthony Lopez</p>
+        </footer>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
